@@ -1,0 +1,18 @@
+// Customize bootstrap (defaults included)
+$theme-colors: (
+  "primary": #007bff,
+  "secondary": #6c757d,
+  "success": #28a745,
+  "danger": #dc3545,
+  "warning": #ffc107,
+  "info": #17a2b8
+);
+
+// Animations
+@keyframes fade-in {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+// Custom variables
+$loading-overlay-bg-color: rgba(map-get($theme-colors, secondary), 0.2);
