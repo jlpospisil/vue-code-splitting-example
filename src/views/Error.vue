@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import Loading from '@/components/ui/Loading.vue';
+import { Loading } from '@cdpjs/vue-components';
 import Error from '@/components/ExampleComponent.vue';
 
 const error = {

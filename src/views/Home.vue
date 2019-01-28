@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import Loading from '@/components/ui/Loading.vue';
+import { Loading } from '@cdpjs/vue-components';
 
 // component would typically use import(), but timeout allows for simulating slow loading component
 const AsyncHome = () => ({
